@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Suite">
+    <parameter name="BrowserName" value="chrome"></parameter>
+    <test name="Scenar 2io">
+        <classes>
+            <class name="Tests.HomeTest"/>
+            <class name="Tests.TodayDealTest"/>
+        </classes>
+    </test>
+
+</suite>
